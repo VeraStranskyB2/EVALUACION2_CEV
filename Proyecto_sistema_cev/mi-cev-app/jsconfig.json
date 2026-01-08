@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // Indica que las rutas base son relativas a la raíz del proyecto
+    "paths": {
+      // Define el alias: cualquier cosa que empiece con "@/" mapea a "src/"
+      "@/*": ["src/*"]
+    }
+  },
+  // Incluye todos los archivos dentro de la carpeta "src" para que el editor los analice
+  "include": ["src/**/*", "RegistrarRegionClienteView.vue"]
+}
